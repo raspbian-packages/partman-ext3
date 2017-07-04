@@ -1,9 +1,16 @@
-partman-ext3 (89+rpi1) stretch-staging; urgency=medium
+partman-ext3 (90+rpi1) buster-staging; urgency=medium
 
   [changes brought forward from 82+rpi1 by Peter Michael Green <plugwash@raspbian.org> at Sun, 23 Mar 2014 13:52:02 +0000]
   * Remove ext4-modules dependency as raspbian kernels have it built-in.
 
- -- Raspbian forward porter <root@raspbian.org>  Sun, 24 Jul 2016 21:46:15 +0000
+ -- Raspbian forward porter <root@raspbian.org>  Tue, 04 Jul 2017 19:00:51 +0000
+
+partman-ext3 (90) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Simplified Chinese (zh_CN.po) by Yangfl
+
+ -- Christian Perrier <bubulle@debian.org>  Wed, 28 Jun 2017 07:49:29 +0200
 
 partman-ext3 (89) unstable; urgency=medium
 
@@ -1615,7 +1622,3 @@ partman-ext3 (1) unstable; urgency=low
   * First version.
 
  -- Anton Zinoviev <zinoviev@debian.org>  Wed, 10 Dec 2003 10:25:33 +0200
-
-Local Variables:
-coding: utf-8
-End:
