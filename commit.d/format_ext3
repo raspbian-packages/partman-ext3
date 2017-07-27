@@ -56,7 +56,7 @@ for dev in $DEVICES/*; do
 				usage=''
 			fi
 			if log-output -t partman --pass-stdout \
-			   mkfs.$filesystem $device $usage >/dev/null; then
+			   mkfs.$filesystem -F $device $usage >/dev/null; then
 				sync
 				status=OK
 			else

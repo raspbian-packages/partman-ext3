@@ -4,6 +4,15 @@ partman-ext3 (84+rpi1) jessie-staging; urgency=medium
 
  -- Raspbian forward porter <root@raspbian.org>  Thu, 11 Jun 2015 23:24:28 +0000
 
+partman-ext3 (84+deb8u1) jessie; urgency=low
+
+  [ Christian Perrier ]
+  * Force ext3|ext4 filesystem creation with "-F" so that D-I doesn't
+    "hang" when re-using an existing partition in some situations.
+    Closes: #767682
+
+ -- Cyril Brulebois <kibi@debian.org>  Thu, 13 Jul 2017 17:36:02 +0200
+
 partman-ext3 (84) unstable; urgency=low
 
   [ Updated translations ]
@@ -1573,6 +1582,3 @@ partman-ext3 (1) unstable; urgency=low
 
  -- Anton Zinoviev <zinoviev@debian.org>  Wed, 10 Dec 2003 10:25:33 +0200
 
-Local Variables:
-coding: utf-8
-End:
