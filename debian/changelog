@@ -1,9 +1,16 @@
-partman-ext3 (97+rpi1) buster-staging; urgency=medium
+partman-ext3 (98+rpi1) buster-staging; urgency=medium
 
   [changes brought forward from 82+rpi1 by Peter Michael Green <plugwash@raspbian.org> at Sun, 23 Mar 2014 13:52:02 +0000]
   * Remove ext4-modules dependency as raspbian kernels have it built-in.
 
- -- Raspbian forward porter <root@raspbian.org>  Thu, 01 Mar 2018 04:24:30 +0000
+ -- Raspbian forward porter <root@raspbian.org>  Thu, 12 Apr 2018 15:44:30 +0000
+
+partman-ext3 (98) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Indonesian (id.po) by Andika Triwidada
+
+ -- Christian Perrier <bubulle@debian.org>  Fri, 06 Apr 2018 19:08:42 +0200
 
 partman-ext3 (97) unstable; urgency=medium
 
