@@ -1,11 +1,25 @@
-partman-ext3 (102+rpi1) buster-staging; urgency=medium
+partman-ext3 (103+rpi1) buster-staging; urgency=medium
 
   [changes brought forward from 82+rpi1 by Peter Michael Green <plugwash@raspbian.org> at Sun, 23 Mar 2014 13:52:02 +0000]
   * Remove ext4-modules dependency as raspbian kernels have it built-in.
 
- -- Raspbian forward porter <root@raspbian.org>  Thu, 04 Apr 2019 04:13:33 +0000
+ -- Raspbian forward porter <root@raspbian.org>  Sun, 23 Jun 2019 14:56:33 +0000
+
+partman-ext3 (103) unstable; urgency=medium
+
+  * Team upload
+
+  [ Cyril Brulebois ]
+  * Remove Christian Perrier from Uploaders, with many thanks for all
+    his contributions over the years! (Closes: #927522)
+
+  [ Updated translations ]
+  * Hebrew (he.po) by Yaron Shahrabani
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sun, 21 Apr 2019 21:52:41 +0200
 
 partman-ext3 (102) unstable; urgency=medium
+
   * Team upload
 
   [ Updated translations ]
@@ -14,6 +28,7 @@ partman-ext3 (102) unstable; urgency=medium
  -- Holger Wansing <hwansing@mailbox.org>  Wed, 06 Mar 2019 22:54:04 +0100
 
 partman-ext3 (101) unstable; urgency=medium
+
   * Team upload
 
   * Remove trailing whitespaces from changelog file, to fix lintian tag.

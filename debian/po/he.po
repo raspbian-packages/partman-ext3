@@ -28,7 +28,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-ext3@packages.debian.org\n"
 "POT-Creation-Date: 2011-07-23 22:48+0000\n"
-"PO-Revision-Date: 2019-02-28 22:08+0000\n"
+"PO-Revision-Date: 2019-04-20 07:33+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew (https://www.transifex.com/yaron/teams/79473/he/)\n"
 "Language: he\n"
@@ -96,8 +96,9 @@ msgid ""
 "system. This is needed by your machine in order to boot. Please go back and "
 "use either the ext2 or ext3 file system."
 msgstr ""
-"מחיצת האתחול שלך לא הוגדרה עם מערכת קבצים ext2 או ext3. הגדרה זאת נדרשת על "
-"ידי המחשב שלך כדי שיוכל לאתחל. חזור אחורה ובחר במערכת הקבצים ext2 או ext3."
+"מחיצת האתחול שלך לא הוגדרה עם מערכת קבצים מהסוגים ext2 או ext3. הגדרה זאת "
+"נדרשת על ידי המחשב שלך כדי שיוכל לאתחל. מוטב לחזור אחורה ולבחור ב־ext2 או ב־"
+"ext3 בתור מערכת קבצים."
 
 #. Type: boolean
 #. Description
@@ -111,8 +112,8 @@ msgid ""
 "partition will be used as is. This means that you may not be able to boot "
 "from your hard disk."
 msgstr ""
-"אם לא תחזור לתפריט הגדרת המחיצות ותתקן שגיאה זו, המחיצה תהיה בשימוש כמות "
-"שהיא. כלומר שייתכן שלא תוכל לאתחל מהדיסק הקשיח שלך."
+"בחירה שלא לחזור לתפריט החלוקה למחיצות ולתקן את השגיאה הזאת תוביל לשימוש "
+"במחיצה כמו שהיא. כלומר שלא תהיה לך אפשרות לאתחל מהכונן הקשיח שלך."
 
 #. Type: boolean
 #. Description
@@ -123,16 +124,16 @@ msgid ""
 "hard disk. This is needed by your machine in order to boot.  Please go back "
 "and use your first primary partition as a boot partition."
 msgstr ""
-"מחיצת האתחול שלך לא ממוקמת על המחיצה הראשית הראשונה של הדיסק הקשיח שלך. "
-"מיקום זה נדרש על מנת לאתחל את המחשב. חזור אחורה ובחר במחיצה הראשית הראשונה "
-"שלך כמחיצת אתחול."
+"מחיצת האתחול שלך לא ממוקמת על המחיצה הראשית הראשונה של הכונן הקשיח שלך. "
+"דרישה זו נחוצה לטובת אתחול המחשב. מוטב לחזור אחורה ולבחור במחיצה הראשית "
+"הראשונה שלך כמחיצת אתחול."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-ext3.templates:9001
 msgid "Return to the menu to set the bootable flag?"
-msgstr "לחזור לתפריט כדי לשים את דגל האתחול?"
+msgstr "לחזור לתפריט כדי להגדיר את דגל האתחול?"
 
 #. Type: boolean
 #. Description
@@ -143,8 +144,8 @@ msgid ""
 "this is required by your machine in order to boot. You should go back and "
 "set the bootable flag for the boot partition."
 msgstr ""
-"מחיצת האתחול שלך לא סומנה כמחיצת אתחול, למרות שהדבר נדרש לאתחול מחשבך. חזור "
-"אחורה ושים את דגל האתחול על מחיצת האתחול."
+"מחיצת האתחול שלך לא סומנה כמחיצת אתחול, למרות שהדבר נדרש לאתחול מחשבך. נא "
+"לחזור אחורה ולהגדיר את דגל האתחול על מחיצת האתחול."
 
 #. Type: boolean
 #. Description
@@ -154,8 +155,8 @@ msgid ""
 "If you don't correct this, the partition will be used as is and it is likely "
 "that the machine cannot boot from its hard disk."
 msgstr ""
-"אם לא תחזור לתפריט הגדרת המחיצות ותתקן שגיאה זו, המחיצה תהיה בשימוש כמות "
-"שהיא. כלומר שקרוב לוודאי, שהמחשב לא יוכל לאתחל מהדיסק הקשיח שלו."
+"בחירה שלא לתקן את השגיאות האלו יגרום לכך שייעשה שימוש במחיצה כמו שהיא כלומר "
+"שקרוב לוודאי, המחשב לא יוכל לאתחל מהכונן הקשיח שלו."
 
 #. Type: boolean
 #. Description
@@ -173,8 +174,8 @@ msgid ""
 "${OFFSET} bytes from the minimum alignment for this disk, which may lead to "
 "very poor performance."
 msgstr ""
-"המחיצה ${PARTITION} ששוייכה ל-${MOUNTPOINT} מתחילה בהיסט של ${OFFSET} תווים "
-"מהיישור המינימלי עבור דיסק זה, מה שיכול לגרום לביצועים גרועים מאוד."
+"המחיצה ${PARTITION} שמשויכת אל ${MOUNTPOINT} מתחילה בהפרש של ${OFFSET} בתים "
+"מהיישור המזערי עבור כונן זה, מה שיכול לפגום בביצועים באופן מהותי."
 
 #. Type: boolean
 #. Description
@@ -187,7 +188,8 @@ msgid ""
 "recreate it in the same position with the same settings. This will cause the "
 "partition to start at a point best suited for this disk."
 msgstr ""
-"מכיוון שהינך מפרמט מחיצה זו, מומלץ שתתקן בעיה זו עכשיו על ידי יישור מחדש של "
-"המחיצה, מכיוון שיהיה קשה לשנות אחר כך. כדי לעשות זאת, חזור לתפריט הראשי "
-"לחלוקה למחיצות, מחק מחיצה זו וצור אותה מחדש באותו המקום עם אותם הפרמטרים. "
-"פעולה זו תגרום למחיצה להתחיל בנקודה המתאימה ביותר עבור דיסק זה."
+"כיוון שבחרת לפרמט את המחיצה הזו, עליך לתקן את התקלה הזו כעת על ידי יישור "
+"המחיצה מחדש מאחר שביצוע פעולה זו לאחר מכן כרוכה בהליך מסובך. כדי לעשות זאת "
+"עליך לחזור לתפריט החלוקה למחיצות, למחוק את המחיצה וליצור אותה מחדש באותו "
+"המיקום ועם אותן ההגדרות. פעולה זו תגרום לכך שהמחיצה תתחיל בנקודה המתאימה "
+"ביותר לכונן."
