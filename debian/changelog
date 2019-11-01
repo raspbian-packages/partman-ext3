@@ -1,9 +1,22 @@
-partman-ext3 (103+rpi1) buster-staging; urgency=medium
+partman-ext3 (104+rpi1) bullseye-staging; urgency=medium
 
   [changes brought forward from 82+rpi1 by Peter Michael Green <plugwash@raspbian.org> at Sun, 23 Mar 2014 13:52:02 +0000]
   * Remove ext4-modules dependency as raspbian kernels have it built-in.
 
- -- Raspbian forward porter <root@raspbian.org>  Sun, 23 Jun 2019 14:56:33 +0000
+ -- Raspbian forward porter <root@raspbian.org>  Fri, 01 Nov 2019 07:19:30 +0000
+
+partman-ext3 (104) unstable; urgency=medium
+
+  * Team upload
+
+  [ John Paul Adrian Glaubitz ]
+  * Remove obsolete workaround for Yaboot on powerpc
+
+  [ Updated translations ]
+  * Croatian (hr.po) by gogogogi
+  * Portuguese (pt.po) by Miguel Figueiredo
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sat, 19 Oct 2019 23:52:59 +0200
 
 partman-ext3 (103) unstable; urgency=medium
 

@@ -55,14 +55,8 @@ for dev in $DEVICES/*; do
 			else
 				usage=''
 			fi
-			case `udpkg --print-architecture` in
-			    powerpc)
-			        if [ "$filesystem" = "ext4" ]; then
-			            features="-O^64bit,^metadata_csum"
-			        fi
-			esac
 			if log-output -t partman --pass-stdout \
-			   mkfs.$filesystem $features -F $device $usage >/dev/null; then
+			   mkfs.$filesystem -F $device $usage >/dev/null; then
 				sync
 				status=OK
 			else
