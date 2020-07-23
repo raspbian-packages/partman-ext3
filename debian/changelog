@@ -1,9 +1,22 @@
-partman-ext3 (104+rpi1) bullseye-staging; urgency=medium
+partman-ext3 (105+rpi1) bullseye-staging; urgency=medium
 
   [changes brought forward from 82+rpi1 by Peter Michael Green <plugwash@raspbian.org> at Sun, 23 Mar 2014 13:52:02 +0000]
   * Remove ext4-modules dependency as raspbian kernels have it built-in.
 
- -- Raspbian forward porter <root@raspbian.org>  Fri, 01 Nov 2019 07:19:30 +0000
+ -- Raspbian forward porter <root@raspbian.org>  Thu, 23 Jul 2020 20:44:50 +0000
+
+partman-ext3 (105) unstable; urgency=medium
+
+  * Team upload
+
+  [ Holger Wansing ]
+  * Fix missing package name in 'Project-Id-Version' header of template.pot
+    file, to allow correct declaration in po|pot files.
+
+  [ Samuel Thibault ]
+  * init.d/kernelmodules_ext3: Don't try to read /proc/modules on non-Linux.
+
+ -- Holger Wansing <hwansing@mailbox.org>  Wed, 15 Jul 2020 23:38:11 +0200
 
 partman-ext3 (104) unstable; urgency=medium
 
