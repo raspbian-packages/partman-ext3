@@ -1,9 +1,25 @@
-partman-ext3 (105+rpi1) bullseye-staging; urgency=medium
+partman-ext3 (106+rpi1) bullseye-staging; urgency=medium
 
   [changes brought forward from 82+rpi1 by Peter Michael Green <plugwash@raspbian.org> at Sun, 23 Mar 2014 13:52:02 +0000]
   * Remove ext4-modules dependency as raspbian kernels have it built-in.
 
- -- Raspbian forward porter <root@raspbian.org>  Thu, 23 Jul 2020 20:44:50 +0000
+ -- Raspbian forward porter <root@raspbian.org>  Thu, 12 Nov 2020 19:15:35 +0000
+
+partman-ext3 (106) unstable; urgency=medium
+
+  * Team upload
+
+  [ Updated translations ]
+  * Basque (eu.po) by Iñaki Larrañaga Murgoitio
+  * French (fr.po) by Baptiste Jammet
+  * Punjabi (Gurmukhi) (pa.po) by Aman ALam
+  * Traditional Chinese (zh_TW.po) by Walter Cheuk
+
+  [ New translations ]
+  * Kabyle (kab.po) by Slimane Selyan Amiri
+  * Occitan (oc.po) by Quentin PAGÈS
+
+ -- Holger Wansing <hwansing@mailbox.org>  Thu, 05 Nov 2020 19:17:13 +0100
 
 partman-ext3 (105) unstable; urgency=medium
 
