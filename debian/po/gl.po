@@ -16,14 +16,17 @@
 # Marce Villarino <mvillarino@users.sourceforge.net>, 2009.
 # marce villarino <mvillarino@users.sourceforge.net>, 2009.
 # Marce Villarino <mvillarino@gmail.com>, 2009.
-# Jorge Barreiro <xurxo@findomundo.es>, 2010, 2011, 2012, 2013, 2014.
+# Jorge Barreiro <xurxo@findomundo.es>, 2010, 2011, 2012, 2013, 2014, 2015, 2017.
+# mantinan <github@manty.net>, 2018, 2021.
+# Jorge Teijeiro <jorge.teijeiro.ramos@gmail.com>, 2022.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: gl\n"
 "Report-Msgid-Bugs-To: partman-ext3@packages.debian.org\n"
 "POT-Creation-Date: 2011-07-23 22:48+0000\n"
-"PO-Revision-Date: 2014-11-13 23:34+0100\n"
-"Last-Translator: Jorge Barreiro <xurxo@findomundo.es>\n"
+"PO-Revision-Date: 2022-04-18 13:37+0000\n"
+"Last-Translator: Jorge Teijeiro <jorge.teijeiro.ramos@gmail.com>\n"
 "Language-Team: Galician <proxecto@trasno.net>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
@@ -187,6 +190,6 @@ msgid ""
 msgstr ""
 "Aproveitando que vai formatar esta partición, debería corrixir este problema "
 "agora realiñando a partición, xa que isto será complicado de cambiar máis "
-"tarde.  Para iso, volva ao menú principal de particionamento, borre a "
-"partición e volva a crealo na mesma posición e cas mesmas opcións. Isto fará "
-"que a partición comece no punto do disco que mellor lle acaia."
+"tarde. Para iso, volva ao menú principal de particionamento, borre a "
+"partición e volva a creala na mesma posición e cas mesmas opcións. Isto fará "
+"que a partición comece nun punto máis axeitado para o disco."

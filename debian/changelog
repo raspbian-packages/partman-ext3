@@ -1,9 +1,27 @@
-partman-ext3 (107+rpi1) bullseye-staging; urgency=medium
+partman-ext3 (108+rpi1) bookworm-staging; urgency=medium
 
   [changes brought forward from 82+rpi1 by Peter Michael Green <plugwash@raspbian.org> at Sun, 23 Mar 2014 13:52:02 +0000]
   * Remove ext4-modules dependency as raspbian kernels have it built-in.
 
- -- Raspbian forward porter <root@raspbian.org>  Fri, 16 Apr 2021 03:16:41 +0000
+ -- Raspbian forward porter <root@raspbian.org>  Sun, 12 Jun 2022 13:23:17 +0000
+
+partman-ext3 (108) unstable; urgency=medium
+
+  * Team upload
+
+  [ Updated translations ]
+  * Galician (gl.po) by Jorge Teijeiro
+  * Simplified Chinese (zh_CN.po) by Wenbin Lv
+
+  [ Samuel Thibault ]
+  * Make gbp produce the right tag format.
+
+  [ Debian Janitor ]
+  * Build-Depends: Drop versioned constraint on po-debconf.
+  * partman-ext3: Drop versioned constraint on partman-base and
+    partman-basicfilesystems in Depends.
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sat, 28 May 2022 17:39:26 +0200
 
 partman-ext3 (107) unstable; urgency=medium
 
