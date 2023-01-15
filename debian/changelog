@@ -1,9 +1,29 @@
-partman-ext3 (110+rpi1) bookworm-staging; urgency=medium
+partman-ext3 (111+rpi1) bookworm-staging; urgency=medium
 
   [changes brought forward from 82+rpi1 by Peter Michael Green <plugwash@raspbian.org> at Sun, 23 Mar 2014 13:52:02 +0000]
   * Remove ext4-modules dependency as raspbian kernels have it built-in.
 
- -- Raspbian forward porter <root@raspbian.org>  Thu, 15 Sep 2022 13:17:22 +0000
+ -- Raspbian forward porter <root@raspbian.org>  Sun, 15 Jan 2023 19:03:18 +0000
+
+partman-ext3 (111) unstable; urgency=medium
+
+  * Team upload
+
+  [ Samuel Thibault ]
+  * Make gbp produce the right tag format (again).
+
+  [ Debian Janitor ]
+  * Set debhelper-compat version in Build-Depends.
+  * Bump debhelper from deprecated 9 to 13.
+
+  [ Holger Wansing ]
+  * Set Standards-Version to 3.8.4 (checked).
+  * Add myself to Uploaders, to make Lintian happy.
+
+  [ Updated translations ]
+  * Japanese (ja.po) by YOSHINO Yoshihito
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sun, 08 Jan 2023 00:19:11 +0100
 
 partman-ext3 (110) unstable; urgency=medium
 

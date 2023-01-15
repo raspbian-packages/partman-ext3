@@ -2,7 +2,9 @@ Source: partman-ext3
 Section: debian-installer
 Priority: standard
 Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
-Build-Depends: debhelper (>= 9), dh-di, po-debconf
+Uploaders: Holger Wansing <hwansing@mailbox.org>
+Standards-Version: 3.8.4
+Build-Depends: debhelper-compat (= 13), dh-di, po-debconf
 Vcs-Browser: https://salsa.debian.org/installer-team/partman-ext3
 Vcs-Git: https://salsa.debian.org/installer-team/partman-ext3.git
 
