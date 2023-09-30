@@ -27,21 +27,25 @@
 #      Jakub Bogusz <qboosh@pld-linux.org>, 2007-2011.
 #      Tomasz Z. Napierala <zen@debian.linux.org.pl>, 2004, 2006.
 # Marcin Owsiany <porridge@debian.org>, 2011.
-# Michał Kułach <michal.kulach@gmail.com>, 2012, 2013.
+# Michał Kułach <michal.kulach@gmail.com>, 2012, 2013, 2014, 2015, 2016, 2017, 2018.
+# Bartosz Feński <fenio@debian.org>, 2020.
+# Matthaiks <kitynska@gmail.com>, 2021, 2022.
+# Łukasz Dulny <BartekChom@poczta.onet.pl>, 2017.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-ext3@packages.debian.org\n"
 "POT-Creation-Date: 2011-07-23 22:48+0000\n"
-"PO-Revision-Date: 2011-09-26 10:46+0100\n"
-"Last-Translator: Michał Kułach <michal.kulach@gmail.com>\n"
+"PO-Revision-Date: 2023-08-03 08:07+0000\n"
+"Last-Translator: Matthaiks <kitynska@gmail.com>\n"
 "Language-Team: Polish <debian-l10n-polish@lists.debian.org>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
 
 #. Type: text
 #. Description
@@ -61,7 +65,7 @@ msgstr "ext3"
 #. File system name
 #: ../partman-ext3.templates:2001
 msgid "Ext3 journaling file system"
-msgstr "System plików ext3 z księgowaniem"
+msgstr "ext3 – system plików z księgowaniem"
 
 #. Type: text
 #. Description
@@ -81,7 +85,7 @@ msgstr "ext4"
 #. File system name
 #: ../partman-ext3.templates:5001
 msgid "Ext4 journaling file system"
-msgstr "System plików ext4 z księgowaniem"
+msgstr "ext4 – system plików z księgowaniem"
 
 #. Type: boolean
 #. Description
