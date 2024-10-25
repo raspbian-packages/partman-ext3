@@ -9,6 +9,7 @@
 #
 # Georgi Stanojevski, <glisha@gmail.com>, 2004, 2005, 2006.
 # Georgi Stanojevski <georgis@unet.com.mk>, 2005, 2006.
+# Kristijan Fremen Velkovski <me@krisfremen.com>, 2023.
 #
 # Translations from iso-codes:
 #   Alastair McKinstry <mckinstry@computer.org>, 2002
@@ -24,8 +25,8 @@ msgstr ""
 "Project-Id-Version: debian-installer_packages_po_sublevel1_mk\n"
 "Report-Msgid-Bugs-To: partman-ext3@packages.debian.org\n"
 "POT-Creation-Date: 2011-07-23 22:48+0000\n"
-"PO-Revision-Date: 2012-04-11 15:54+0200\n"
-"Last-Translator: Arangel Angov <arangel@linux.net.mk>\n"
+"PO-Revision-Date: 2024-06-04 07:09+0000\n"
+"Last-Translator: Kristijan Fremen Velkovski <me@krisfremen.com>\n"
 "Language-Team: Macedonian <>\n"
 "Language: mk\n"
 "MIME-Version: 1.0\n"
@@ -191,5 +192,5 @@ msgstr ""
 "преку усогласување на партицијата, бидејќи ќе биде многу потешко да го "
 "направиш тоа подоцна. Врати се назад во главното мени за партиционирање, "
 "избриши ја партицијата и рекреирај ја на истата позиција со истите "
-"поставувања. Ова ќе резултира со поставување на партицијата на на место каде "
+"поставувања. Ова ќе резултира со поставување на партицијата на место каде "
 "што најдобро одговара."
