@@ -21,7 +21,7 @@
 #   Kalman Kemenczy <kkemenczy@gmail.com>, 2010.
 #   Andras TIMAR <timar@gnome.hu>, 2000-2001.
 # SZERVÁC Attila <sas@321.hu>, 2012.
-# Dr. Nagy Elemér Károly <eknagy@omikk.bme.hu>, 2012.
+# Dr. Nagy Elemér Károly <eknagy@omikk.bme.hu>, 2012, 2018.
 # Judit Gyimesi <judit.gyimesi.x@gmail.com>, 2013.
 #
 msgid ""
@@ -29,15 +29,15 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-ext3@packages.debian.org\n"
 "POT-Creation-Date: 2011-07-23 22:48+0000\n"
-"PO-Revision-Date: 2013-11-18 21:15+0100\n"
-"Last-Translator: Judit Gyimesi <judit.gyimesi.x@gmail.com>\n"
+"PO-Revision-Date: 2025-02-03 21:02+0000\n"
+"Last-Translator: Szia Tomi <sziatomi01@gmail.com>\n"
 "Language-Team: Debian L10n Hungarian <debian-l10n-hungarian@lists.debian."
 "org>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n>1;\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #. Type: text
 #. Description
@@ -87,37 +87,6 @@ msgstr "ext4"
 msgid "Ext4 journaling file system"
 msgstr "Ext4 naplózó fájlrendszer"
 
-# #-#-#-#-#  templates.pot (partman-basicfilesystems)  #-#-#-#-#
-# Type: boolean
-# Description
-# :sl5:
-# Type: boolean
-# Description
-# :sl5:
-# #-#-#-#-#  templates.pot (PACKAGE VERSION)  #-#-#-#-#
-# Type: boolean
-# Description
-# :sl2:
-# Type: boolean
-# Description
-# :sl2:
-# #-#-#-#-#  templates.pot (PACKAGE VERSION)  #-#-#-#-#
-# Type: boolean
-# Description
-# :sl4:
-# Type: boolean
-# Description
-# :sl4:
-# Type: boolean
-# Description
-# :sl4:
-# #-#-#-#-#  templates.pot (partman-zfs)  #-#-#-#-#
-# Type: boolean
-# Description
-# :sl4:
-# Type: boolean
-# Description
-# :sl4:
 #. Type: boolean
 #. Description
 #. :sl2:
@@ -144,20 +113,6 @@ msgstr ""
 "konfigurálta. Ez szükséges az indításhoz. Lépjwn vissza és válassza az ext2 "
 "vagy ext3 fájlrendszert."
 
-# #-#-#-#-#  templates.pot (partman-basicfilesystems)  #-#-#-#-#
-# Type: boolean
-# Description
-# :sl5:
-# Type: boolean
-# Description
-# :sl5:
-# #-#-#-#-#  templates.pot (PACKAGE VERSION)  #-#-#-#-#
-# Type: boolean
-# Description
-# :sl2:
-# Type: boolean
-# Description
-# :sl2:
 #. Type: boolean
 #. Description
 #. :sl2:
@@ -170,7 +125,7 @@ msgid ""
 "partition will be used as is. This means that you may not be able to boot "
 "from your hard disk."
 msgstr ""
-"Ha nem lép vissza a particionáló menübe és javítja e hibát, a partíció így "
+"Ha nem lép vissza a particionálási menübe és javítja e hibát, a partíció így "
 "kerül használatba, ahogy van. A merevlemezről való indítás meghiúsulhat."
 
 # Type: boolean
@@ -229,27 +184,12 @@ msgstr ""
 "Ha nem javítja, a partíció így kerül használatba és a merevlemezről való "
 "indítás meghiúsulhat."
 
-# #-#-#-#-#  templates.pot (partman-basicfilesystems)  #-#-#-#-#
-# Type: boolean
-# Description
-# :sl2:
-# Type: boolean
-# Description
-# :sl2:
-# #-#-#-#-#  templates.pot (PACKAGE VERSION)  #-#-#-#-#
-# Type: boolean
-# Description
-# :sl2:
-# #-#-#-#-#  templates.pot (PACKAGE VERSION)  #-#-#-#-#
-# Type: boolean
-# Description
-# :sl4:
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-ext3.templates:10001
 msgid "Do you want to return to the partitioning menu?"
-msgstr "Visszalép a particionáló-menübe?"
+msgstr "Visszalépsz a particionálási menübe?"
 
 # Type: boolean
 # Description
@@ -283,6 +223,6 @@ msgid ""
 msgstr ""
 "Mivel most formázza ezt a partíciót, ajánlatos e problémát most javítania a "
 "partíció újraigazításával, ezt később nehezebb lenne. E célból lépjen vissza "
-"a particionáló menübe, törölje a partíciót és hozza létre újra hasonló "
+"a particionálási menübe, törölje a partíciót és hozza létre újra hasonló "
 "pozícióban ugyanilyen beállításokkal. Így a partíció kezdete a legjobb "
 "helyre kerül e lemezen."

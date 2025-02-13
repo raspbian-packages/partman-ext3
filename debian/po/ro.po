@@ -20,6 +20,8 @@
 #
 # Eddy Petrișor <eddy.petrisor@gmail.com>, 2004, 2005, 2006, 2007, 2008, 2009, 2010.
 # Jobava <jobaval10n@gmail.com>, 2018.
+# Andrei Popescu <andreimpopescu@gmail.com>, 2018, 2020.
+# Sergiu <adinfinitvm@wail.ch>, 2020.
 #
 # Translations from iso-codes:
 # Alastair McKinstry <mckinstry@debian.org>, 2004
@@ -37,8 +39,8 @@ msgstr ""
 "Project-Id-Version: ro\n"
 "Report-Msgid-Bugs-To: partman-ext3@packages.debian.org\n"
 "POT-Creation-Date: 2011-07-23 22:48+0000\n"
-"PO-Revision-Date: 2018-01-05 19:24+0000\n"
-"Last-Translator: Jobava <jobaval10n@gmail.com>\n"
+"PO-Revision-Date: 2024-12-04 12:00+0000\n"
+"Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <debian-l10n-romanian@lists.debian.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
@@ -65,7 +67,7 @@ msgstr "ext3"
 #. File system name
 #: ../partman-ext3.templates:2001
 msgid "Ext3 journaling file system"
-msgstr "Sistem de fișiere ext3 cu jurnalizare"
+msgstr "sistem de fișiere ext3 cu jurnalizare"
 
 #. Type: text
 #. Description
@@ -85,7 +87,7 @@ msgstr "ext4"
 #. File system name
 #: ../partman-ext3.templates:5001
 msgid "Ext4 journaling file system"
-msgstr "Sistem de fișiere ext4 cu jurnalizare"
+msgstr "sistem de fișiere ext4 cu jurnalizare"
 
 #. Type: boolean
 #. Description
@@ -125,7 +127,7 @@ msgid ""
 msgstr ""
 "Dacă nu vă întoarceți la meniul de partiționare să corectați aceste erori, "
 "partiția va fi folosită așa cum este. În acest caz este posibil să nu puteți "
-"porni de pe discul fix."
+"porni de pe discul dur."
 
 #. Type: boolean
 #. Description
@@ -146,7 +148,7 @@ msgstr ""
 #. :sl2:
 #: ../partman-ext3.templates:9001
 msgid "Return to the menu to set the bootable flag?"
-msgstr "Reveniți la meniu pentru a defini indicatorul de pornire?"
+msgstr "Reveniți la meniu pentru a defini fanionul de pornire?"
 
 #. Type: boolean
 #. Description
@@ -157,9 +159,9 @@ msgid ""
 "this is required by your machine in order to boot. You should go back and "
 "set the bootable flag for the boot partition."
 msgstr ""
-"Partiția de pornire nu a fost marcată ca o partiție de inițializare, deși "
-"acest lucru este necesar pentru ca sistemul să poată porni. Ar trebui să "
-"reveniți și să definiți indicatorul de pornire pentru partiția de pornire."
+"Partiția de pornire nu a fost marcată ca o partiție aptă de a fi pornită, "
+"deși acest lucru este necesar pentru ca sistemul să poată porni. Ar trebui "
+"să reveniți și să activați fanionul de pornire pentru partiția de pornire."
 
 #. Type: boolean
 #. Description
@@ -169,8 +171,8 @@ msgid ""
 "If you don't correct this, the partition will be used as is and it is likely "
 "that the machine cannot boot from its hard disk."
 msgstr ""
-"Dacă nu veți corecta acest lucru, partiția va fi folosită așa cum este și "
-"este probabil ca sistemul să nu poată porni de pe discul fix."
+"Dacă nu corectați acest lucru, partiția va fi utilizată așa cum este și este "
+"posibil ca mașina să nu poată porni de pe discul dur."
 
 #. Type: boolean
 #. Description
@@ -188,8 +190,8 @@ msgid ""
 "${OFFSET} bytes from the minimum alignment for this disk, which may lead to "
 "very poor performance."
 msgstr ""
-"Partiția ${PARTITION} alocată punctului de montare ${MOUNTPOINT} începe cu o "
-"deplasare de ${OFFSET} octeți de la alinierea minimă pentru acest disc. "
+"Partiția ${PARTITION} alocată punctului de montare ${MOUNTPOINT} începe cu "
+"un decalaj de ${OFFSET} octeți de la alinierea minimă pentru acest disc. "
 "Acest lucru ar putea duce la performanță scăzută."
 
 #. Type: boolean
@@ -207,5 +209,5 @@ msgstr ""
 "această problemă acum, prin re-alinierea partiției, deoarece va fi dificil "
 "de corectat ulterior. Pentru aceasta trebuie să mergeți înapoi la meniul de "
 "partiționare, să ștergeți partiția și să o recreați în aceiași poziție cu "
-"aceleași setări. În acest fel partiția va începe în punctul cel mai potrivit "
-"pentru acest disc."
+"aceiași parametri. În acest fel partiția va începe în punctul cel mai "
+"potrivit pentru acest disc."

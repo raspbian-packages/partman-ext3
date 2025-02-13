@@ -7,6 +7,8 @@
 # Copyright (C) 2003 Software in the Public Interest, Inc.
 # This file is distributed under the same license as debian-installer.
 # Nima Sahraneshin <unix.nima@gmail.com>, 2018.
+# Seyed Hany Hosseini <hany1894@gmail.com>, 2020.
+# <soheilkhanalipur@tutanota.com>, 2020.
 #
 # Translations from iso-codes:
 #   Alastair McKinstry - further translations from ICU-3.0
@@ -21,11 +23,11 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: fa\n"
+"Project-Id-Version: fa sublevel1\n"
 "Report-Msgid-Bugs-To: partman-ext3@packages.debian.org\n"
 "POT-Creation-Date: 2011-07-23 22:48+0000\n"
-"PO-Revision-Date: 2019-01-01 17:49+0000\n"
-"Last-Translator: nima sahraneshin <unix.nima@gmail.com>\n"
+"PO-Revision-Date: 2024-12-10 10:00+0000\n"
+"Last-Translator: Danial Behzadi <dani.behzi@ubuntu.com>\n"
 "Language-Team: Debian-l10n-persian <debian-l10n-persian@lists.debian.org>\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
@@ -43,7 +45,7 @@ msgstr ""
 #. Short file system name (untranslatable in many languages)
 #: ../partman-ext3.templates:1001 ../partman-ext3.templates:3001
 msgid "ext3"
-msgstr "اکس‌تی۳"
+msgstr "ext3"
 
 #. Type: text
 #. Description
@@ -63,7 +65,7 @@ msgstr "فایل‌سیستم ... Ext3"
 #. Short file system name (untranslatable in many languages)
 #: ../partman-ext3.templates:4001 ../partman-ext3.templates:6001
 msgid "ext4"
-msgstr "اکس‌تی۴"
+msgstr "ext4"
 
 #. Type: text
 #. Description

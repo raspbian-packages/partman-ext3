@@ -1,9 +1,21 @@
-partman-ext3 (115+rpi1) trixie-staging; urgency=medium
+partman-ext3 (116+rpi1) trixie-staging; urgency=medium
 
   [changes brought forward from 82+rpi1 by Peter Michael Green <plugwash@raspbian.org> at Sun, 23 Mar 2014 13:52:02 +0000]
   * Remove ext4-modules dependency as raspbian kernels have it built-in.
 
- -- Raspbian forward porter <root@raspbian.org>  Tue, 10 Dec 2024 18:24:07 +0000
+ -- Raspbian forward porter <root@raspbian.org>  Thu, 13 Feb 2025 18:31:26 +0000
+
+partman-ext3 (116) unstable; urgency=medium
+
+  * Team upload
+
+  [ Updated translations ]
+  * Persian (fa.po) by Danial Behzadi
+  * Hungarian (hu.po) by Szia Tomi
+  * Polish (pl.po) by Matthaiks
+  * Romanian (ro.po) by Remus-Gabriel Chelu
+
+ -- Holger Wansing <hwansing@mailbox.org>  Fri, 07 Feb 2025 20:59:21 +0100
 
 partman-ext3 (115) unstable; urgency=medium
 
