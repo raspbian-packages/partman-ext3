@@ -4,13 +4,14 @@
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
 # Serbian/Cyrillic messages for debian-installer.
-# Copyright (C) 2010 Software in the Public Interest, Inc.
+# Copyright (C) 2010-2012 Software in the Public Interest, Inc.
 # Copyright (C) 2008 THE cp6Linux'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the debian-installer package.
-# Karolina Kalic <karolina@resenje.org>, 2010-2011.
-# Janos Guljas <janos@resenje.org>, 2010-2011.
+# Karolina Kalic <karolina@resenje.org>, 2010-2012.
+# Janos Guljas <janos@resenje.org>, 2010-2012.
 # Veselin Mijušković <veselin.mijuskovic@gmail.com>, 2008.
-#
+# Milan Kostic <kosticmilan77@open.telekom.rs>, 2012.
+# Filipovic Dragan <filipovic@tutanota.com>, 2018, 2020.
 #
 # Translations from iso-codes:
 #   Aleksandar Jelenak <aleksandar.jelenak@gmail.com>, 2010.
@@ -25,13 +26,15 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-ext3@packages.debian.org\n"
 "POT-Creation-Date: 2011-07-23 22:48+0000\n"
-"PO-Revision-Date: 2011-12-04 00:12+0100\n"
-"Last-Translator: Karolina Kalic <karolina@resenje.org>\n"
-"Language-Team: Serbian/Cyrillic\n"
-"Language: \n"
+"PO-Revision-Date: 2025-02-16 11:57+0000\n"
+"Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
+"Language-Team: Serbian <debian-l10n-serbian@lists.debian.org>\n"
+"Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. Type: text
 #. Description
@@ -51,7 +54,7 @@ msgstr "ext3"
 #. File system name
 #: ../partman-ext3.templates:2001
 msgid "Ext3 journaling file system"
-msgstr "Ext3 журналски фајл систем"
+msgstr "Ext3 журналски систем датотека"
 
 #. Type: text
 #. Description
@@ -71,7 +74,7 @@ msgstr "ext4"
 #. File system name
 #: ../partman-ext3.templates:5001
 msgid "Ext4 journaling file system"
-msgstr "Ext4 журналски фајл систем"
+msgstr "Ext4 журналски систем датотека"
 
 #. Type: boolean
 #. Description
@@ -81,7 +84,7 @@ msgstr "Ext4 журналски фајл систем"
 #. :sl2:
 #: ../partman-ext3.templates:7001 ../partman-ext3.templates:8001
 msgid "Go back to the menu and correct this problem?"
-msgstr "Вратити се назад у мени и исправити проблем?"
+msgstr "Да се вратим назад у изборник и да исправим овај проблем?"
 
 #. Type: boolean
 #. Description
@@ -92,9 +95,9 @@ msgid ""
 "system. This is needed by your machine in order to boot. Please go back and "
 "use either the ext2 or ext3 file system."
 msgstr ""
-"Ваша бут партиција није конфигурисана са ext2 или ext3 фајл системом. Ово је "
-"потребно да би ваша машина могла да се покрене. Вратите се назад и "
-"употребите ext2 или ext3 фајл систем."
+"Ваша подизна партиција није подешена са „ext2“ или „ext3“ системом датотека. "
+"Ово је потребно да би ваш рачунар могао да се покрене. Вратите се назад и "
+"користите „ext2“ или „ext3“ систем датотека."
 
 #. Type: boolean
 #. Description
@@ -108,9 +111,9 @@ msgid ""
 "partition will be used as is. This means that you may not be able to boot "
 "from your hard disk."
 msgstr ""
-"Ако се не вратите назад на мени за партиционисање и исправите ове грешке "
-"партиција ће бити употребљена таква каква је. То значи да можда нећете моћи "
-"да покренете систем са вашег диска."
+"Ако се не вратите назад на изборник за партиционисање и не исправите ове "
+"грешке, партиција ће бити употребљена таква каква је. То значи да можда "
+"нећете моћи да покренете систем са вашег диска."
 
 #. Type: boolean
 #. Description
@@ -121,16 +124,16 @@ msgid ""
 "hard disk. This is needed by your machine in order to boot.  Please go back "
 "and use your first primary partition as a boot partition."
 msgstr ""
-"Ваша покретачка партиција није на првој примарној партицији вашег хард "
-"диска.  Ово је потребно да би ваша машина могла да се покрене.  Вратите се "
-"назад и употребите вашу прву примарну партицију као покретачку партицију."
+"Ваша подизна партиција се не налази на првој примарној партицији вашег "
+"чврстог диска.  Ово је потребно да би ваш рачунар могао да се покрене.  "
+"Вратите се назад и користите прву примарну партицију као подизну партицију."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-ext3.templates:9001
 msgid "Return to the menu to set the bootable flag?"
-msgstr "Вратити се у мени за поставку бут заставице?"
+msgstr "Да се вратим на изборник за поставку подизне заставице?"
 
 #. Type: boolean
 #. Description
@@ -141,9 +144,9 @@ msgid ""
 "this is required by your machine in order to boot. You should go back and "
 "set the bootable flag for the boot partition."
 msgstr ""
-"Ваша бут партиција није бутабилна партиција вашег хард диска. Ово је "
-"потребно да би ваша машина могла да се покрене. Вратите се назад и наместите "
-"бут заставицу за вашу бут партицију."
+"Партиција за подизање система није означена као подизна партиција, иако је "
+"то потребно да би ваш рачунар могао да се покрене. Вратите се назад и "
+"поставите заставицу подизања система за подизну партицију."
 
 #. Type: boolean
 #. Description
@@ -153,15 +156,15 @@ msgid ""
 "If you don't correct this, the partition will be used as is and it is likely "
 "that the machine cannot boot from its hard disk."
 msgstr ""
-"Ако не поправите ово, партиција ће се користити као таква и вероватно се "
-"машина неће подићи са хард диска."
+"Ако не поправите ово, партиција ће се користити као таква и вероватно да "
+"рачунар неће моћи да се подигне са свог хард диска."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../partman-ext3.templates:10001
 msgid "Do you want to return to the partitioning menu?"
-msgstr "Да ли желите да се вратите на мени за партиционисање?"
+msgstr "Да ли желите да се вратите на изборник партиционисања?"
 
 #. Type: boolean
 #. Description
@@ -172,9 +175,9 @@ msgid ""
 "${OFFSET} bytes from the minimum alignment for this disk, which may lead to "
 "very poor performance."
 msgstr ""
-"Партиција ${PARTITION} додељења ${MOUNTPOINT} почиње на удаљености ${OFFSET} "
-"бајта од минималног поравнања за овај диск што може довести до веома лоших "
-"перфомански."
+"Партиција „${PARTITION}“ додељења „${MOUNTPOINT}“ почиње на померају од "
+"${OFFSET} бајта од најмањег поравнања за овај диск што може довести до веома "
+"лоше учинковитости."
 
 #. Type: boolean
 #. Description
@@ -187,8 +190,8 @@ msgid ""
 "recreate it in the same position with the same settings. This will cause the "
 "partition to start at a point best suited for this disk."
 msgstr ""
-"Пошто форматирате ову партицију, требали бисте поправити овај проблем сада "
-"поравнавањем партиције, јер ће то бити тешко променити касније. Да урадите "
-"ово, идите назад на главни мени за партиционисање, обришите партицију и "
-"поново је направите у истој позицији са истим поставкама. Резултат је да ће "
-"партиција почињати на најбољем месту за овај диск."
+"Пошто форматирате ову партицију, требало би да исправити овај проблем сада "
+"поравнавањем партиције, јер ће то касније бити тешко променити. Да урадите "
+"ово, идите назад на главни изборник за партиционисање, обришите партицију и "
+"поново је направите на истој позицији са истим поставкама. Ово ће довести до "
+"тога да ће партиција почињати на месту најбољем за овај диск."
