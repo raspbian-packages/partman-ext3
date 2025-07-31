@@ -23,15 +23,15 @@
 # Rihards Priedītis <rprieditis@gmail.com>, 2009, 2010.
 # Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>, 2012, 2013, 2017.
 # Peteris Krisjanis <pecisk@gmail.com>, 2008, 2012.
-# Tranzistors <rudolfs.mazurs@gmail.com>, 2018, 2021.
+# Tranzistors <rudolfs.mazurs@gmail.com>, 2018, 2021, 2022.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: lv\n"
 "Report-Msgid-Bugs-To: partman-ext3@packages.debian.org\n"
 "POT-Creation-Date: 2011-07-23 22:48+0000\n"
-"PO-Revision-Date: 2021-01-29 15:32+0000\n"
-"Last-Translator: Tranzistors <rudolfs.mazurs@gmail.com>\n"
+"PO-Revision-Date: 2025-07-04 09:01+0000\n"
+"Last-Translator: Aigars Mahinovs <aigarius@gmail.com>\n"
 "Language-Team: Latvian <lata-l10n@googlegroups.com>\n"
 "Language: lv\n"
 "MIME-Version: 1.0\n"
@@ -198,8 +198,9 @@ msgid ""
 msgstr ""
 "Tā kā jūs vēlaties sagatavot šo diska nodalījumu turpmākam darbam, jums "
 "obligāti būtu šī kļūda jāizlabo jau tagad, pievienojot šī diska nodalījumu "
-"no jauna. Vēlāk šo problēmu būs daudz grūtāk izlabot. Lai to veiktu:\n"
-" - dodieties atpakaļ uz galveno diska nodalījumu veidošanas izvēlni\n"
-" - izdzēsiet šo problemātisko diska nodalījumu\n"
-" - izveidojiet jaunu tādu pašu diska nodalījumu tai pašā vietā un ar tādiem "
-"pašiem iestatījumiem kā iepriekš."
+"no jauna. Vēlāk šo problēmu būs daudz grūtāk izlabot. Lai to veiktu: "
+"dodieties atpakaļ uz galveno diska nodalījumu veidošanas izvēlni, izdzēsiet "
+"šo problemātisko diska nodalījumu, izveidojiet jaunu tādu pašu diska "
+"nodalījumu tai pašā vietā un ar tādiem pašiem iestatījumiem kā iepriekš. Šīs "
+"darbību rezultātā nodalījuma sākums tiks novietots šim diskam atbilstošā "
+"vietā."

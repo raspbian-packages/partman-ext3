@@ -4,7 +4,7 @@
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
 # Spanish messages for debian-installer.
-# Copyright (C) 2003-2007 Software in the Public Interest, Inc.
+# Copyright (C) 2003-2020 Software in the Public Interest, Inc.
 # This file is distributed under the same license as debian-installer.
 #
 # Contributors to the translation of debian-installer:
@@ -16,8 +16,10 @@
 # Steve Langasek <vorlon@debian.org>, 2004
 # Enrique Matias Sanchez (aka Quique) <cronopios@gmail.com>, 2005
 # Rubén Porras Campo <nahoo@inicia.es>, 2005
-# Javier Fernández-Sanguino <jfs@debian.org>, 2003-2010
 # Omar Campagne <ocampagne@gmail.com>, 2010
+# Javier Fernández-Sanguino <jfs@debian.org>, 2003-2012, 2014-2018, 2020
+# Camaleón <noelamac@gmail.com>, 2022, 2024.
+# Manuel \"Venturi\" Porras Peralta <venturi@openmailbox.org>, 2017.
 #
 # Equipo de traducción al español, por favor lean antes de traducir
 # los siguientes documentos:
@@ -59,13 +61,14 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-ext3@packages.debian.org\n"
 "POT-Creation-Date: 2011-07-23 22:48+0000\n"
-"PO-Revision-Date: 2011-09-13 02:45+0200\n"
-"Last-Translator: Javier Fernández-Sanguino <jfs@debian.org>\n"
-"Language-Team:  Debian Spanish <debian-l10n-spanish@lists.debian.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2025-07-07 20:50+0000\n"
+"Last-Translator: Santiago Vila <sanvila@debian.org>\n"
+"Language-Team: Debian Spanish <debian-l10n-spanish@lists.debian.org>\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #. Type: text
 #. Description
@@ -177,7 +180,7 @@ msgid ""
 "set the bootable flag for the boot partition."
 msgstr ""
 "La partición de arranque no se ha marcado como una partición arrancable, "
-"aunque esto es necesario para que su sistema arranque. Debería volver atrás "
+"aunque esto es necesario para que el sistema arranque. Debería volver atrás "
 "y fijar la partición como arrancable."
 
 #. Type: boolean

@@ -29,7 +29,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-ext3@packages.debian.org\n"
 "POT-Creation-Date: 2011-07-23 22:48+0000\n"
-"PO-Revision-Date: 2025-02-23 04:29+0000\n"
+"PO-Revision-Date: 2025-07-07 20:50+0000\n"
 "Last-Translator: Szia Tomi <sziatomi01@gmail.com>\n"
 "Language-Team: Debian L10n Hungarian <debian-l10n-hungarian@lists.debian."
 "org>\n"
@@ -153,7 +153,7 @@ msgstr ""
 #. :sl2:
 #: ../partman-ext3.templates:9001
 msgid "Return to the menu to set the bootable flag?"
-msgstr "Visszatérsz a menübe a rendszerindító zászló beállításához?"
+msgstr "Visszalépsz a menübe a rendszerindító zászló beállításához?"
 
 # Type: boolean
 # Description
