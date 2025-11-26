@@ -1,0 +1,7 @@
+active_partition usr/lib/partman
+valid_filesystems usr/lib/partman
+init.d usr/lib/partman
+check.d usr/lib/partman
+commit.d usr/lib/partman
+finish.d usr/lib/partman
+mount.d usr/lib/partman
