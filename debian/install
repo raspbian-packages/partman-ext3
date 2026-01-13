@@ -1,3 +1,3 @@
-mountoptions lib/partman
-fstab.d lib/partman
-parted_names lib/partman
+mountoptions usr/lib/partman
+fstab.d usr/lib/partman
+parted_names usr/lib/partman

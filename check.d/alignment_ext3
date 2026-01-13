@@ -1,6 +1,6 @@
 #!/bin/sh
 
-. /lib/partman/lib/base.sh
+. /usr/lib/partman/lib/base.sh
 
 bad=
 for dev in $DEVICES/*; do

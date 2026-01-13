@@ -26,15 +26,15 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: partman-ext3@packages.debian.org\n"
 "POT-Creation-Date: 2011-07-23 22:48+0000\n"
-"PO-Revision-Date: 2025-02-16 11:57+0000\n"
-"Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
+"PO-Revision-Date: 2025-10-02 17:02+0000\n"
+"Last-Translator: Саша Петровић <salepetronije@gmail.com>\n"
 "Language-Team: Serbian <debian-l10n-serbian@lists.debian.org>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. Type: text
 #. Description
@@ -111,9 +111,9 @@ msgid ""
 "partition will be used as is. This means that you may not be able to boot "
 "from your hard disk."
 msgstr ""
-"Ако се не вратите назад на изборник за партиционисање и не исправите ове "
-"грешке, партиција ће бити употребљена таква каква је. То значи да можда "
-"нећете моћи да покренете систем са вашег диска."
+"Уколико се не вратите назад на изборник распарчавања и не исправите ове "
+"грешке, парче ће бити употребљено таквим какво је. То значи да можда нећете "
+"моћи да покренете склоп са вашег диска."
 
 #. Type: boolean
 #. Description
@@ -164,7 +164,7 @@ msgstr ""
 #. :sl2:
 #: ../partman-ext3.templates:10001
 msgid "Do you want to return to the partitioning menu?"
-msgstr "Да ли желите да се вратите на изборник партиционисања?"
+msgstr "Да ли желите да се вратите на изборник испарчавања?"
 
 #. Type: boolean
 #. Description
