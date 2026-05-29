@@ -1,9 +1,16 @@
-partman-ext3 (120+rpi1) forky-staging; urgency=medium
+partman-ext3 (121+rpi1) forky-staging; urgency=medium
 
   [changes brought forward from 82+rpi1 by Peter Michael Green <plugwash@raspbian.org> at Sun, 23 Mar 2014 13:52:02 +0000]
   * Remove ext4-modules dependency as raspbian kernels have it built-in.
 
- -- Raspbian forward porter <root@raspbian.org>  Tue, 13 Jan 2026 18:15:36 +0000
+ -- Raspbian forward porter <root@raspbian.org>  Fri, 29 May 2026 00:31:39 +0000
+
+partman-ext3 (121) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Lao (lo.po) by BoneNI
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sun, 17 May 2026 20:32:31 +0200
 
 partman-ext3 (120) unstable; urgency=medium
 
